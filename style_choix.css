@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+.cree_Tables{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 50vh;
+    background-color: #497EAE;
+    color: white;
+
+    font-size: 15px;
+
+}
+
+.choisir_tables{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 50vh;
+    background-color: white;
+    color: #497EAE;
+    font-size: 15px;
+}
+
+.texte_bleu{
+    color: #497EAE;
+    font-size: 15px;
+}
+.contenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ 
+}
+.page_chargement{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.loader {
+    border: 6px solid #ffffff;
+    border-top: 6px solid #497EAE;
+    border-left: 6px solid #497EAE;
+    border-right: 6px solid #497EAE;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+
+    margin-top: 20px;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
