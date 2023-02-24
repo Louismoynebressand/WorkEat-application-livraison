@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
 body{
     font-family: 'Roboto';
     font-size: 15px ;
     margin: 0;
-    background-color: #F4F4F4;
+    background-color: #FCFCFC;
     
 }
 .logo{
@@ -226,3 +225,205 @@ body{
 .photo_lucie-annedupont{
     background-image: url('images/profiles/lucie-anne.jpeg');
 }
+
+.bandeau{
+    background-color: #FFF5DC;
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.container2{
+    width: 85vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gaucheBandeau{
+
+    display: flex;
+    align-items: center;
+}
+.infosTable{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-around;
+}
+.titreTable{
+    font-weight: bold;
+    font-size: 32px;
+    color: #3F3F3F;
+    margin-left: 10px;
+}
+.infosNTable{
+    color: #8CBD00;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.infosNTable>.numeroTable{
+    margin-right: 6px;
+}
+.Npersonne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.placesTable{
+    font-weight: bold;
+    font-size: 32px;
+    color: #3F3F3F;
+    margin-left: 8px;
+}
+.timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 300;
+    font-size: 14px;
+    color: #3F3F3F;
+}
+.minuteur{
+    font-weight: bold;
+}
+.table{
+    display: flex;
+    justify-content: center;
+}
+.container3{
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gerantTable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.NomInviteTable{
+    color: #8bbd0086;
+    font-size: 14px;
+    font-weight: bold;
+}
+.TableEtInvites{
+    display: flex;
+
+    width: 100%;
+}
+
+.invitesGauche{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+.inviteDroite{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inviteBas{
+    margin-top: 23px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.espaceInvite{
+    height: 20px;
+}
+.espaceInvitePlus{
+    height: 80px;
+}
+.invite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.iconTable{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.arrow-container {
+    position: relative;
+    width: 30px;
+    height: 20px;
+}
+  
+  .arrowJaune {
+    transform: translate(-50%, -50%);
+    animation: arrow-oscillate 1s ease-in-out infinite;
+  }
+
+  
+  @keyframes arrow-oscillate {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translateX(-5px);
+    }
+  }
+
+.arrow-containerBas {
+    position: relative;
+    width: 18px;
+    height: 23px;
+}  
+  .arrowJauneBas{
+    transform: translate(-50%, -50%);
+    animation: arrow-oscillate-bas 1s ease-in-out infinite;
+  }
+  @keyframes arrow-oscillate-bas {
+    0% {
+      transform: translateY(-5px);
+    }
+    50% {
+      transform: translateY(5px);
+    }
+    100% {
+      transform: translateY(-5px);
+    }
+  }
+
+.bulleMessage{
+    height: 77px;
+    width: 85vw;
+    background-color: #EDEDED;
+    border-radius: 20px;
+    color: #A7A7A7;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 8px;
+}
+.bulleMessage>span{
+
+    margin-left: 18px;
+}
+    .message{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+    
